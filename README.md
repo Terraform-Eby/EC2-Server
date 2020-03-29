@@ -2,6 +2,7 @@
 
 This is a Terraform code written to spin-up an ec2 instance. Below code will create two security groups named "http and ssh" and will use a keypair already exists in the account.
 
+* Copy below code to a ".tf" file and update necessary values accordingly.
 
 ```
 provider "aws" {
