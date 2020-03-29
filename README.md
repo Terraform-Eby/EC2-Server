@@ -1,4 +1,4 @@
-# ec2-server
+# EC2-Server
 
 This is a Terraform code written to spin-up an ec2 instance. Below code will create two security groups named "http and ssh" and will use a keypair already exists in the account.
 
