@@ -84,7 +84,7 @@ resource "aws_instance" "ec2server" {
   }
 }
 
-output "webserver-instance" {
+output "ec2server-instance" {
   value = aws_instance.ec2server
 }
 
